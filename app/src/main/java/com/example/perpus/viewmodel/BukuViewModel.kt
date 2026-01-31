@@ -4,7 +4,7 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
-import com.example.perpus.repository.RepositoryBuku
+import com.example.perpus.Repository.RepositoryBuku
 import com.example.perpus.room.Buku
 
 data class BukuUIState(
