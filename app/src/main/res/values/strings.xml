@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Perpus</string>
+
+	<!-- res/values/strings.xml -->
+
+	<!-- Navigasi Bawah -->
+	<string name="beranda">Beranda</string>
+	<string name="buku">Buku</string>
+	<string name="peminjaman">Peminjaman</string>
+	<string name="pengembalian">Pengembalian</string>
+
+	<!-- Halaman Buku -->
+	<string name="kelola_buku">Kelola Buku</string>
+	<string name="tambah_buku">+ Tambah Buku</string>
+	<string name="judul">Judul</string>
+	<string name="penulis">Penulis</string>
+	<string name="kategori">Kategori</string>
+	<string name="stok">Stok</string>
+	<string name="simpan">Simpan</string>
+	<string name="batal">Batal</string>
+	<string name="edit_buku">Edit</string>
+	<string name="hapus">Hapus</string>
+	<string name="konfirmasi_hapus">Hapus buku ini?</string>
+	<string name="pesan_hapus_ditolak">Buku tidak dapat dihapus karena masih tersedia atau sedang dipinjam.</string>
+	<string name="pesan_stok_invalid">Stok harus berupa angka ≥ 0.</string>
+	<string name="judul_wajib">Judul tidak boleh kosong.</string>
+	<string name="penulis_wajib">Penulis tidak boleh kosong.</string>
+	<string name="tersedia">Tersedia</string>
+	<string name="dipinjam">Dipinjam</string>
+	<string name="tidak_ada_buku">Belum ada buku tersimpan.</string>
+
+	<!-- Halaman Peminjaman -->
+	<string name="catat_peminjaman">Catat Peminjaman</string>
+	<string name="pilih_buku">Pilih Buku (stok > 0)</string>
+	<string name="nama_anggota">Nama Anggota</string>
+	<string name="pinjam">Pinjam</string>
+	<string name="buku_tidak_tersedia">Buku tidak tersedia untuk dipinjam.</string>
+
+	<!-- Halaman Pengembalian -->
+	<string name="catat_pengembalian">Catat Pengembalian</string>
+	<string name="daftar_peminjaman_aktif">Peminjaman Aktif</string>
+	<string name="kembalikan">Kembalikan</string>
+	<string name="tidak_ada_peminjaman">Tidak ada peminjaman aktif.</string>
+
+	<!-- Umum -->
+	<string name="ok">OK</string>
+	<string name="ya">Ya</string>
+	<string name="tidak">Tidak</string>
+	<string name="tanggal_pinjam">Tanggal Pinjam</string>
+	<string name="tanggal_kembali">Tanggal Kembali</string>
+	<string name="status">Status</string>
+	<string name="aktif">Aktif</string>
+	<string name="selesai">Selesai</string>
+	<string name="form_peminjaman">Form Peminjaman</string>
+	<string name="delete_peminjaman">Delete peminjaman ini</string>
+
+
+
+
+	<!-- Beranda -->
+	<string name="selamat_datang">Selamat datang di Aplikasi Pengelolaan Perpustakaan</string>
+</resources>
