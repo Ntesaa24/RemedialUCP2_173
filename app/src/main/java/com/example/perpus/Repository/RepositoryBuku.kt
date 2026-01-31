@@ -1,10 +1,9 @@
 package com.example.perpus.Repository
 
 import com.example.perpus.room.Buku
-import com.example.perpus.room.BukuDao
 import kotlinx.coroutines.flow.Flow
 
-interface RepositoryBuku {
+interface  RepositoryBuku{
 	fun getAllBuku() : Flow<List<Buku>>
 	suspend fun insertBuku(buku: Buku)
 	suspend fun updateBuku(buku: Buku)
@@ -14,8 +13,5 @@ interface RepositoryBuku {
 	fun getBukuStream(bukuId: Int) : Flow<Buku?>
 
 	suspend fun getAllBukuStatic(): List<Buku>
-
-
-
 
 }
